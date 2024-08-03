@@ -24,7 +24,7 @@ const Portfolio: React.FC = () => {
               <div className="group block relative overflow-hidden rounded-xl transition-all ease-in-out duration-300 hover:shadow-xl">
                 <div className="w-full h-full transition-all ease-in-out duration-300">
                   <img
-                    className=" w-full h-auto group-hover:brightness-50 brightness-100 object-cover object-center transition-all ease-in-out duration-300 grayscale group-hover:grayscale-0"
+                    className=" w-full h-auto group-hover:brightness-50 brightness-100 object-cover object-center transition-all ease-in-out duration-300 grayscale-0 group-hover:grayscale"
                     src={porto.img}
                     alt={porto.name}
                   />
@@ -47,8 +47,8 @@ const Portfolio: React.FC = () => {
                         className="w-7 h-7 text-inherit group-hover:scale-110 "
                       />
                     </a>
-
-                    <a
+                    {/* {porto} */}
+                    {/* <a
                       href={porto.github}
                       target="_blank"
                       className="w-full p-2 rounded-xl border text-sm flex justify-between items-center hover:bg-black hover:text-white transition-all ease-in-out duration-300 group"
@@ -59,7 +59,7 @@ const Portfolio: React.FC = () => {
                         icon="mdi:github"
                         className="w-7 h-7 text-inherit group-hover:scale-110"
                       />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

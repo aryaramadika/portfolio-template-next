@@ -19,48 +19,72 @@ export const socialList: Social[] = [
 
 export const homeIcon: string[] = [
   "logos:react",
-  "logos:vue",
+  "file-icons:nextjs",
   "logos:typescript-icon",
+  "logos:ethereum",
+  "logos:flutter",
   "vscode-icons:file-type-tailwind",
 ];
 
 export const portfolios = [
   {
-    name: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime iure at praesentium laudantium repudiandae ex autem debitis voluptatum, consectetur aspernatur laborum perferendis error, ratione sunt est ea in rerum?",
-    img: "https://cdn.dribbble.com/userupload/9628174/file/original-22c4527ec1a581847cc750065ebc581d.png",
-    link: "https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY",
-    github: "https://github.com/langgamrhapsody",
+    name: "e.id Digital Identity WebApp",
+    img: "img/e.id.png",
+    link: "https://e.id/",
+    // github: "https://github.com/langgamrhapsody",
   },
   {
-    name: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime iure at praesentium laudantium repudiandae ex autem debitis voluptatum, consectetur aspernatur laborum perferendis error, ratione sunt est ea in rerum?",
-    img: "https://cdn.dribbble.com/userupload/9628174/file/original-22c4527ec1a581847cc750065ebc581d.png",
-    link: "https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY",
-    github: "https://github.com/langgamrhapsody",
+    name: "e.id Admin Panel",
+    img: "img/e.idadmin.png",
+    link: "https://admin-e.pandi.id/",
   },
   {
-    name: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime iure at praesentium laudantium repudiandae ex autem debitis voluptatum, consectetur aspernatur laborum perferendis error, ratione sunt est ea in rerum?",
-    img: "https://cdn.dribbble.com/userupload/9628174/file/original-22c4527ec1a581847cc750065ebc581d.png",
-    link: "https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY",
-    github: "https://github.com/langgamrhapsody",
+    name: "Mandalachain",
+    img: "img/mandala.png",
+    link: "https://www.mandalachain.io/",
   },
   {
-    name: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maxime iure at praesentium laudantium repudiandae ex autem debitis voluptatum, consectetur aspernatur laborum perferendis error, ratione sunt est ea in rerum?",
-    img: "https://cdn.dribbble.com/userupload/9628174/file/original-22c4527ec1a581847cc750065ebc581d.png",
-    link: "https://youtu.be/1woy1SLnvNU?si=GEJ0c3YyZravX8QY",
-    github: "https://github.com/langgamrhapsody",
+    name: "Republik DAO",
+    img: "img/republikdao.png",
+    link: "https://republikdao.io/",
+  },
+  {
+    name: "Republik DAO Mint",
+    img: "img/republikdaomint.png",
+    link: "https://mint.republikdao.io/",
+  },
+  {
+    name: "Guruku",
+    img: "img/guruku.png",
+    link: "https://guruku.com/",
+  },
+  {
+    name: "Vacaba",
+    img: "img/vacaba.png",
+    link: "https://vacaba.id/",
+  },
+  {
+    name: "Dhatu",
+    img: "img/dhatu.png",
+    link: "https://dhatu.io/",
+  },
+  {
+    name: "Bali Blockchain Summit",
+    img: "img/bbs.png",
+    link: "https://www.baliblockchainsummit.com/",
   },
 ];
 
 export const contacts = [
   {
-    href: "https://wa.me/1234567890",
+    href: "https://wa.me/082144365203",
     icon: "ic:baseline-phone",
-    text: "+1 234 567 890",
+    text: "+62 821 443 65203",
   },
   {
-    href: "mailto:myportfolio@adcmedia.com",
+    href: "mailto:aryaramadika78@gmail.com",
     icon: "mdi:email-fast-outline",
-    text: "myportfolio@adcmedia.com",
+    text: "aryaramadika78@gmail.com",
   },
   {
     href: "https://www.google.com/maps/dir//Denpasar,+Denpasar+City,+Bali/@-8.6703711,115.1714297,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2dd2409b0e5e80db:0xe27334e8ccb9374a!2m2!1d115.2126293!2d-8.6704582?entry=ttu",
