@@ -70,12 +70,12 @@ const Sidebar: FC<{ children: React.ReactNode }> = ({ children }) => {
                 </a>
               ))}
             </div>
-            <div className="italic font-light text-sm text-center py-4">
+            {/* <div className="italic font-light text-sm text-center py-4">
               <p>
                 {Strings.sidebar.description} <br /> {Strings.sidebar.by}{" "}
                 <span className="font-normal">{Strings.sidebar.provider}</span>
               </p>
-            </div>
+            </div> */}
             <div className="py-10">
               <button
                 type="button"
