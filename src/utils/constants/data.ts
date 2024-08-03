@@ -2,17 +2,14 @@ import { NavLink, Social } from "@/interfaces/data";
 import Strings from "./strings";
 
 export const socialList: Social[] = [
-  { href: "https://www.github.com", icon: "mdi:github" },
+  { href: "https://github.com/aryaramadika", icon: "mdi:github" },
+
   {
-    href: "https://www.facebook.com",
-    icon: "ic:outline-facebook",
-  },
-  {
-    href: "https://www.instagram.com",
+    href: "https://www.instagram.com/aryaramadikaa",
     icon: "ri:instagram-fill",
   },
   {
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/arya-ramadika-utama-82b518172/",
     icon: "mdi:linkedin",
   },
 ];
